@@ -3,7 +3,7 @@ package com.company;
 public class BadSpellingException extends Exception {
 
     public BadSpellingException(String message){
-        super(message);
+        super("UR SPELLING IS BAD AND U SHOULD FEEL BAD");
     }
 
     public static void main(String[] args) {
